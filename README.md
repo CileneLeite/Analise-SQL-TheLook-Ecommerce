@@ -25,7 +25,7 @@ GROUP BY 1
 ORDER BY 2 DESC 
 LIMIT 5;
 ```
-Insight: A China lidera o mercado em volume de usuários, porém a faixa etária média (41 anos) é muito consistente entre todos os principais países, permitindo campanhas de marketing globais mais unificadas.
+**Insight**: A China lidera o mercado em volume de usuários, porém a faixa etária média (41 anos) é muito consistente entre todos os principais países, permitindo campanhas de marketing globais mais unificadas.
 
 
 ### 2. O Erro da Samantha (Limpeza de Dados)
@@ -40,5 +40,5 @@ SELECT
         ), 2) AS diferenca_erro
 FROM `bigquery-public-data.thelook_ecommerce.order_items`;
 ```
-Insight: O erro de digitação dos zeros impactaria o faturamento médio em 7.71 unidades monetárias, demonstrando a importância da integridade dos dados para relatórios financeiros.
+**Insight**: O erro de digitação dos zeros impactaria o faturamento médio em 7.71 unidades monetárias, demonstrando a importância da integridade dos dados para relatórios financeiros.
 ```
