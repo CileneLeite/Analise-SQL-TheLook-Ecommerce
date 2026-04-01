@@ -26,3 +26,17 @@ ORDER BY 2 DESC
 LIMIT 5;
 
 Insight: A China lidera o mercado em volume de usuários, porém a faixa etária média (41 anos) é muito consistente entre todos os principais países, permitindo campanhas de marketing globais mais unificadas.
+
+### 2. O Erro da Samantha (Limpeza de Dados)
+**Pergunta:** Qual a diferença entre a média real de vendas e a média se os zeros fossem removidos por erro de digitação?
+
+```sql
+SELECT 
+    ROUND(
+        ABS(
+            AVG(sale_price) - 
+            AVG(CAST(REPLACE(CAST(sale_price AS STRING), '0', '') AS FLOAT64))
+        ), 2) AS diferenca_erro
+FROM `bigquery-public-data.thelook_ecommerce.order_items`;
+
+Insight: O erro de digitação dos zeros impactaria o faturamento médio em 7.71 unidades monetárias, demonstrando a importância da integridade dos dados para relatórios financeiros.
