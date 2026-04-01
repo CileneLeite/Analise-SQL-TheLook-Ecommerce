@@ -1,15 +1,15 @@
 # Analise-SQL-TheLook-Ecommerce
 Análise exploratória de dados de e-commerce utilizando SQL no Google BigQuery. Resolução de problemas de negócio, limpeza de dados e cálculos estatísticos.
-# 📊 Análise de Dados: E-commerce TheLook (SQL)
+# Análise de Dados: E-commerce TheLook (SQL)
 
 Este projeto contém uma série de análises realizadas em SQL utilizando o Google BigQuery sobre o dataset público `thelook_ecommerce`. O objetivo é responder perguntas de negócio e extrair insights sobre o comportamento dos clientes e saúde financeira da empresa.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 * **Google BigQuery** (Processamento de dados em nuvem)
 * **SQL** (Linguagem de consulta)
 * **Dataset:** `bigquery-public-data.thelook_ecommerce`
 
-## 🎯 Desafios Resolvidos
+## Desafios Resolvidos
 
 ### 1. Volume de Usuários e Idade Média por País
 **Pergunta:** Quais os 5 principais mercados e qual o perfil de idade dos usuários?
