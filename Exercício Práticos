@@ -1,0 +1,3 @@
+#### Utilize o dataset público “thelook_ecommerce”, que está presente no projeto
+“bigquery-public-data” para trazer o identificador único dos usuários, o primeiro
+nome, email e idade, ordernados pela data de criação do cadastro.
